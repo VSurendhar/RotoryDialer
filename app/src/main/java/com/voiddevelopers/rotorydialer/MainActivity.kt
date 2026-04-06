@@ -69,6 +69,9 @@ const val REFERENCE_ANGLE = 0f
 val DIGITS = listOf(0, 9, 8, 7, 6, 5, 4, 3, 2, 1)
 
 data class Digit(var digit: Int, var color: Color)
+
+// Inspired from the post : https://www.linkedin.com/feed/update/urn:li:activity:6791003430572969984/
+// By Shubham Singh
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
